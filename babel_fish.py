@@ -76,8 +76,7 @@ class BabelFish(object):
                     self.live_translate()
                     self.handle_functions()
                 elif self.crnt_sender == self.info['username']:
-                    # self.hello_message()
-                    pass
+                    self.hello_message()
                 else:
                     self.info['room'].send_text('no valid user!')
 
